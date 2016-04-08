@@ -8,10 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+#define AppDelegateAccessor ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+
+@class LJZReversibleAnimationController,LJZBaseInteractionController;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic,strong)  LJZReversibleAnimationController *textAnimationController;
+@property (strong, nonatomic) LJZReversibleAnimationController *navigationControllerAnimationController;
 
+@property (strong, nonatomic) LJZBaseInteractionController *navigationControllerInteractionController;
+
+@property (strong, nonatomic) LJZBaseInteractionController *textInteractionController;
 @end
 

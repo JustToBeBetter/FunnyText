@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3DED581CB5F4CC00766068 /* KeychainAceessGroup.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DED571CB5F4CC00766068 /* KeychainAceessGroup.plist */; };
+		0A3DED611CB7600000766068 /* LJZTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED601CB7600000766068 /* LJZTextViewController.m */; };
 		0A5035841CACD58300ACD21D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035831CACD58300ACD21D /* main.m */; };
 		0A5035871CACD58300ACD21D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035861CACD58300ACD21D /* AppDelegate.m */; };
 		0A50358A1CACD58300ACD21D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035891CACD58300ACD21D /* ViewController.m */; };
@@ -15,6 +17,10 @@
 		0A5035921CACD58300ACD21D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5035901CACD58300ACD21D /* LaunchScreen.storyboard */; };
 		0A50359D1CACD58300ACD21D /* FunnyTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A50359C1CACD58300ACD21D /* FunnyTextTests.m */; };
 		0A5035A81CACD58300ACD21D /* FunnyTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035A71CACD58300ACD21D /* FunnyTextUITests.m */; };
+		0A5035C01CACF4BE00ACD21D /* LJZTurnAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035BF1CACF4BE00ACD21D /* LJZTurnAnimationController.m */; };
+		0A5035C31CACF61400ACD21D /* LJZReversibleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035C21CACF61400ACD21D /* LJZReversibleAnimationController.m */; };
+		0A5035E51CAD0B5200ACD21D /* LJZBaseInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035E41CAD0B5200ACD21D /* LJZBaseInteractionController.m */; };
+		0A5035EB1CAD21DC00ACD21D /* LJZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035EA1CAD21DC00ACD21D /* LJZNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3DED571CB5F4CC00766068 /* KeychainAceessGroup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeychainAceessGroup.plist; sourceTree = "<group>"; };
+		0A3DED5F1CB7600000766068 /* LJZTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZTextViewController.h; sourceTree = "<group>"; };
+		0A3DED601CB7600000766068 /* LJZTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZTextViewController.m; sourceTree = "<group>"; };
 		0A50357F1CACD58300ACD21D /* FunnyText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5035831CACD58300ACD21D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A5035851CACD58300ACD21D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,14 @@
 		0A5035A31CACD58300ACD21D /* FunnyTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunnyTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5035A71CACD58300ACD21D /* FunnyTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunnyTextUITests.m; sourceTree = "<group>"; };
 		0A5035A91CACD58300ACD21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A5035BE1CACF4BE00ACD21D /* LJZTurnAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZTurnAnimationController.h; sourceTree = "<group>"; };
+		0A5035BF1CACF4BE00ACD21D /* LJZTurnAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZTurnAnimationController.m; sourceTree = "<group>"; };
+		0A5035C11CACF61400ACD21D /* LJZReversibleAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZReversibleAnimationController.h; sourceTree = "<group>"; };
+		0A5035C21CACF61400ACD21D /* LJZReversibleAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZReversibleAnimationController.m; sourceTree = "<group>"; };
+		0A5035E31CAD0B5200ACD21D /* LJZBaseInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZBaseInteractionController.h; sourceTree = "<group>"; };
+		0A5035E41CAD0B5200ACD21D /* LJZBaseInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZBaseInteractionController.m; sourceTree = "<group>"; };
+		0A5035E91CAD21DC00ACD21D /* LJZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZNavigationController.h; sourceTree = "<group>"; };
+		0A5035EA1CAD21DC00ACD21D /* LJZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +127,16 @@
 				0A5035901CACD58300ACD21D /* LaunchScreen.storyboard */,
 				0A5035931CACD58300ACD21D /* Info.plist */,
 				0A5035821CACD58300ACD21D /* Supporting Files */,
+				0A5035BE1CACF4BE00ACD21D /* LJZTurnAnimationController.h */,
+				0A5035BF1CACF4BE00ACD21D /* LJZTurnAnimationController.m */,
+				0A5035C11CACF61400ACD21D /* LJZReversibleAnimationController.h */,
+				0A5035C21CACF61400ACD21D /* LJZReversibleAnimationController.m */,
+				0A5035E31CAD0B5200ACD21D /* LJZBaseInteractionController.h */,
+				0A5035E41CAD0B5200ACD21D /* LJZBaseInteractionController.m */,
+				0A5035E91CAD21DC00ACD21D /* LJZNavigationController.h */,
+				0A5035EA1CAD21DC00ACD21D /* LJZNavigationController.m */,
+				0A3DED5F1CB7600000766068 /* LJZTextViewController.h */,
+				0A3DED601CB7600000766068 /* LJZTextViewController.m */,
 			);
 			path = FunnyText;
 			sourceTree = "<group>";
@@ -118,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				0A5035831CACD58300ACD21D /* main.m */,
+				0A3DED571CB5F4CC00766068 /* KeychainAceessGroup.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,6 +230,7 @@
 		0A5035771CACD58300ACD21D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LJZ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = likeme;
 				TargetAttributes = {
@@ -243,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3DED581CB5F4CC00766068 /* KeychainAceessGroup.plist in Resources */,
 				0A5035921CACD58300ACD21D /* LaunchScreen.storyboard in Resources */,
 				0A50358F1CACD58300ACD21D /* Assets.xcassets in Resources */,
 				0A50358D1CACD58300ACD21D /* Main.storyboard in Resources */,
@@ -270,9 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5035E51CAD0B5200ACD21D /* LJZBaseInteractionController.m in Sources */,
+				0A5035EB1CAD21DC00ACD21D /* LJZNavigationController.m in Sources */,
+				0A3DED611CB7600000766068 /* LJZTextViewController.m in Sources */,
 				0A50358A1CACD58300ACD21D /* ViewController.m in Sources */,
+				0A5035C31CACF61400ACD21D /* LJZReversibleAnimationController.m in Sources */,
 				0A5035871CACD58300ACD21D /* AppDelegate.m in Sources */,
 				0A5035841CACD58300ACD21D /* main.m in Sources */,
+				0A5035C01CACF4BE00ACD21D /* LJZTurnAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunnyText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.likeme.FunnyText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunnyText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.likeme.FunnyText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +533,7 @@
 				0A5035AE1CACD58300ACD21D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A5035AF1CACD58300ACD21D /* Build configuration list for PBXNativeTarget "FunnyTextTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +542,7 @@
 				0A5035B11CACD58300ACD21D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A5035B21CACD58300ACD21D /* Build configuration list for PBXNativeTarget "FunnyTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +551,7 @@
 				0A5035B41CACD58300ACD21D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
