@@ -11,7 +11,7 @@
 @implementation LJZTurnAnimationController
 - (id)init {
     if (self = [super init]) {
-        self.flipDirection = LJZDirectionVertical;
+        self.flipDirection = LJZDirectionHorizontal;
     }
     return self;
 }

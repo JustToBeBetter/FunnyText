@@ -10,4 +10,8 @@
 
 @interface LJZTextViewController : UIViewController
 
+@property (nonatomic,  copy) NSString    *text;
+@property (nonatomic) CGFloat  speed;
+@property (nonatomic) BOOL  isV;
+@property (nonatomic) BOOL  isMoving;
 @end

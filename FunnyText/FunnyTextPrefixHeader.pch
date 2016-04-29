@@ -1,0 +1,31 @@
+//
+//  FunnyTextPrefixHeader.pch
+//  FunnyText
+//
+//  Created by 李金柱 on 16/4/8.
+//  Copyright © 2016年 likeme. All rights reserved.
+//
+
+#ifndef FunnyTextPrefixHeader_pch
+#define FunnyTextPrefixHeader_pch
+
+
+#import <Availability.h>
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Define.h"
+
+#endif
+
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...) {}
+#endif
+
+#endif /* FunnyTextPrefixHeader_pch */

@@ -9,6 +9,20 @@
 /* Begin PBXBuildFile section */
 		0A3DED581CB5F4CC00766068 /* KeychainAceessGroup.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DED571CB5F4CC00766068 /* KeychainAceessGroup.plist */; };
 		0A3DED611CB7600000766068 /* LJZTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED601CB7600000766068 /* LJZTextViewController.m */; };
+		0A3DED691CB7A5C200766068 /* LJZCardsAnimatonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED681CB7A5C200766068 /* LJZCardsAnimatonController.m */; };
+		0A3DED7B1CB7A67B00766068 /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED6C1CB7A67B00766068 /* HRBrightnessCursor.m */; };
+		0A3DED7C1CB7A67B00766068 /* HRBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED6E1CB7A67B00766068 /* HRBrightnessSlider.m */; };
+		0A3DED7D1CB7A67B00766068 /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED701CB7A67B00766068 /* HRColorCursor.m */; };
+		0A3DED7E1CB7A67B00766068 /* HRColorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED721CB7A67B00766068 /* HRColorInfoView.m */; };
+		0A3DED7F1CB7A67B00766068 /* HRColorMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED741CB7A67B00766068 /* HRColorMapView.m */; };
+		0A3DED801CB7A67B00766068 /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED761CB7A67B00766068 /* HRColorPickerView.m */; };
+		0A3DED811CB7A67B00766068 /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED781CB7A67B00766068 /* HRHSVColorUtil.m */; };
+		0A3DED821CB7A67B00766068 /* UIImage+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED7A1CB7A67B00766068 /* UIImage+CoreGraphics.m */; };
+		0A3DED851CB7B31D00766068 /* LJZSettingColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED841CB7B31D00766068 /* LJZSettingColorViewController.m */; };
+		0A3DED8F1CBB344E00766068 /* colorwheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DED8E1CBB344E00766068 /* colorwheel.png */; };
+		0A3DED911CBB470C00766068 /* picker.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DED901CBB470C00766068 /* picker.png */; };
+		0A3DED941CBB4F0100766068 /* ColorDetectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED931CBB4F0100766068 /* ColorDetectView.m */; };
+		0A3DED981CBB5A7300766068 /* LJZTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DED971CBB5A7300766068 /* LJZTools.m */; };
 		0A5035841CACD58300ACD21D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035831CACD58300ACD21D /* main.m */; };
 		0A5035871CACD58300ACD21D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035861CACD58300ACD21D /* AppDelegate.m */; };
 		0A50358A1CACD58300ACD21D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035891CACD58300ACD21D /* ViewController.m */; };
@@ -21,6 +35,12 @@
 		0A5035C31CACF61400ACD21D /* LJZReversibleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035C21CACF61400ACD21D /* LJZReversibleAnimationController.m */; };
 		0A5035E51CAD0B5200ACD21D /* LJZBaseInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035E41CAD0B5200ACD21D /* LJZBaseInteractionController.m */; };
 		0A5035EB1CAD21DC00ACD21D /* LJZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5035EA1CAD21DC00ACD21D /* LJZNavigationController.m */; };
+		0AF276BD1CD1F4A7000F5261 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF276BC1CD1F4A7000F5261 /* CoreBluetooth.framework */; };
+		0AFF80461CD09B7D004D3315 /* slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF80451CD09B7D004D3315 /* slider.png */; };
+		0AFF80481CD0A3D8004D3315 /* slider_backGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF80471CD0A3D8004D3315 /* slider_backGround.png */; };
+		0AFF804D1CD0B90C004D3315 /* LJZHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF804C1CD0B90C004D3315 /* LJZHistoryTableViewController.m */; };
+		0AFF80501CD0BA39004D3315 /* LJZHistoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF804F1CD0BA39004D3315 /* LJZHistoryManager.m */; };
+		0AFF80521CD1A136004D3315 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFF80511CD1A136004D3315 /* history.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +64,34 @@
 		0A3DED571CB5F4CC00766068 /* KeychainAceessGroup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeychainAceessGroup.plist; sourceTree = "<group>"; };
 		0A3DED5F1CB7600000766068 /* LJZTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZTextViewController.h; sourceTree = "<group>"; };
 		0A3DED601CB7600000766068 /* LJZTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZTextViewController.m; sourceTree = "<group>"; };
+		0A3DED631CB789D800766068 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		0A3DED641CB78A1800766068 /* FunnyTextPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnyTextPrefixHeader.pch; sourceTree = "<group>"; };
+		0A3DED671CB7A5C200766068 /* LJZCardsAnimatonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZCardsAnimatonController.h; sourceTree = "<group>"; };
+		0A3DED681CB7A5C200766068 /* LJZCardsAnimatonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZCardsAnimatonController.m; sourceTree = "<group>"; };
+		0A3DED6B1CB7A67B00766068 /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
+		0A3DED6C1CB7A67B00766068 /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
+		0A3DED6D1CB7A67B00766068 /* HRBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessSlider.h; sourceTree = "<group>"; };
+		0A3DED6E1CB7A67B00766068 /* HRBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessSlider.m; sourceTree = "<group>"; };
+		0A3DED6F1CB7A67B00766068 /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
+		0A3DED701CB7A67B00766068 /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
+		0A3DED711CB7A67B00766068 /* HRColorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorInfoView.h; sourceTree = "<group>"; };
+		0A3DED721CB7A67B00766068 /* HRColorInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorInfoView.m; sourceTree = "<group>"; };
+		0A3DED731CB7A67B00766068 /* HRColorMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorMapView.h; sourceTree = "<group>"; };
+		0A3DED741CB7A67B00766068 /* HRColorMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorMapView.m; sourceTree = "<group>"; };
+		0A3DED751CB7A67B00766068 /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
+		0A3DED761CB7A67B00766068 /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
+		0A3DED771CB7A67B00766068 /* HRHSVColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRHSVColorUtil.h; sourceTree = "<group>"; };
+		0A3DED781CB7A67B00766068 /* HRHSVColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRHSVColorUtil.m; sourceTree = "<group>"; };
+		0A3DED791CB7A67B00766068 /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
+		0A3DED7A1CB7A67B00766068 /* UIImage+CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CoreGraphics.m"; sourceTree = "<group>"; };
+		0A3DED831CB7B31D00766068 /* LJZSettingColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZSettingColorViewController.h; sourceTree = "<group>"; };
+		0A3DED841CB7B31D00766068 /* LJZSettingColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZSettingColorViewController.m; sourceTree = "<group>"; };
+		0A3DED8E1CBB344E00766068 /* colorwheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorwheel.png; sourceTree = "<group>"; };
+		0A3DED901CBB470C00766068 /* picker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picker.png; sourceTree = "<group>"; };
+		0A3DED921CBB4F0100766068 /* ColorDetectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDetectView.h; sourceTree = "<group>"; };
+		0A3DED931CBB4F0100766068 /* ColorDetectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDetectView.m; sourceTree = "<group>"; };
+		0A3DED961CBB5A7300766068 /* LJZTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZTools.h; sourceTree = "<group>"; };
+		0A3DED971CBB5A7300766068 /* LJZTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZTools.m; sourceTree = "<group>"; };
 		0A50357F1CACD58300ACD21D /* FunnyText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5035831CACD58300ACD21D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A5035851CACD58300ACD21D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +116,14 @@
 		0A5035E41CAD0B5200ACD21D /* LJZBaseInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZBaseInteractionController.m; sourceTree = "<group>"; };
 		0A5035E91CAD21DC00ACD21D /* LJZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZNavigationController.h; sourceTree = "<group>"; };
 		0A5035EA1CAD21DC00ACD21D /* LJZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZNavigationController.m; sourceTree = "<group>"; };
+		0AF276BC1CD1F4A7000F5261 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0AFF80451CD09B7D004D3315 /* slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider.png; sourceTree = "<group>"; };
+		0AFF80471CD0A3D8004D3315 /* slider_backGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_backGround.png; sourceTree = "<group>"; };
+		0AFF804B1CD0B90C004D3315 /* LJZHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZHistoryTableViewController.h; sourceTree = "<group>"; };
+		0AFF804C1CD0B90C004D3315 /* LJZHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZHistoryTableViewController.m; sourceTree = "<group>"; };
+		0AFF804E1CD0BA39004D3315 /* LJZHistoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJZHistoryManager.h; sourceTree = "<group>"; };
+		0AFF804F1CD0BA39004D3315 /* LJZHistoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJZHistoryManager.m; sourceTree = "<group>"; };
+		0AFF80511CD1A136004D3315 /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF276BD1CD1F4A7000F5261 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,9 +152,122 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3DED6A1CB7A67B00766068 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DED6B1CB7A67B00766068 /* HRBrightnessCursor.h */,
+				0A3DED6C1CB7A67B00766068 /* HRBrightnessCursor.m */,
+				0A3DED6D1CB7A67B00766068 /* HRBrightnessSlider.h */,
+				0A3DED6E1CB7A67B00766068 /* HRBrightnessSlider.m */,
+				0A3DED6F1CB7A67B00766068 /* HRColorCursor.h */,
+				0A3DED701CB7A67B00766068 /* HRColorCursor.m */,
+				0A3DED711CB7A67B00766068 /* HRColorInfoView.h */,
+				0A3DED721CB7A67B00766068 /* HRColorInfoView.m */,
+				0A3DED731CB7A67B00766068 /* HRColorMapView.h */,
+				0A3DED741CB7A67B00766068 /* HRColorMapView.m */,
+				0A3DED751CB7A67B00766068 /* HRColorPickerView.h */,
+				0A3DED761CB7A67B00766068 /* HRColorPickerView.m */,
+				0A3DED771CB7A67B00766068 /* HRHSVColorUtil.h */,
+				0A3DED781CB7A67B00766068 /* HRHSVColorUtil.m */,
+				0A3DED791CB7A67B00766068 /* UIImage+CoreGraphics.h */,
+				0A3DED7A1CB7A67B00766068 /* UIImage+CoreGraphics.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		0A3DED861CB7B52600766068 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				0A5035BE1CACF4BE00ACD21D /* LJZTurnAnimationController.h */,
+				0A5035BF1CACF4BE00ACD21D /* LJZTurnAnimationController.m */,
+				0A5035C11CACF61400ACD21D /* LJZReversibleAnimationController.h */,
+				0A5035C21CACF61400ACD21D /* LJZReversibleAnimationController.m */,
+				0A5035E31CAD0B5200ACD21D /* LJZBaseInteractionController.h */,
+				0A5035E41CAD0B5200ACD21D /* LJZBaseInteractionController.m */,
+				0A5035E91CAD21DC00ACD21D /* LJZNavigationController.h */,
+				0A5035EA1CAD21DC00ACD21D /* LJZNavigationController.m */,
+				0A3DED671CB7A5C200766068 /* LJZCardsAnimatonController.h */,
+				0A3DED681CB7A5C200766068 /* LJZCardsAnimatonController.m */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		0A3DED871CB7B54B00766068 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A5035881CACD58300ACD21D /* ViewController.h */,
+				0A5035891CACD58300ACD21D /* ViewController.m */,
+				0A3DED5F1CB7600000766068 /* LJZTextViewController.h */,
+				0A3DED601CB7600000766068 /* LJZTextViewController.m */,
+				0A3DED831CB7B31D00766068 /* LJZSettingColorViewController.h */,
+				0A3DED841CB7B31D00766068 /* LJZSettingColorViewController.m */,
+				0AFF804B1CD0B90C004D3315 /* LJZHistoryTableViewController.h */,
+				0AFF804C1CD0B90C004D3315 /* LJZHistoryTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0A3DED881CB7B55C00766068 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0A3DED891CB7B56700766068 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DED921CBB4F0100766068 /* ColorDetectView.h */,
+				0A3DED931CBB4F0100766068 /* ColorDetectView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0A3DED8A1CB7B56E00766068 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DED8D1CB7B5C100766068 /* Resource */,
+				0A3DED8C1CB7B5B700766068 /* libs */,
+				0A3DED8B1CB7B5A700766068 /* Tools */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		0A3DED8B1CB7B5A700766068 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DED961CBB5A7300766068 /* LJZTools.h */,
+				0A3DED971CBB5A7300766068 /* LJZTools.m */,
+				0AFF804E1CD0BA39004D3315 /* LJZHistoryManager.h */,
+				0AFF804F1CD0BA39004D3315 /* LJZHistoryManager.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		0A3DED8C1CB7B5B700766068 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DED6A1CB7A67B00766068 /* ColorPicker */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		0A3DED8D1CB7B5C100766068 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DED8E1CBB344E00766068 /* colorwheel.png */,
+				0A3DED901CBB470C00766068 /* picker.png */,
+				0AFF80451CD09B7D004D3315 /* slider.png */,
+				0AFF80471CD0A3D8004D3315 /* slider_backGround.png */,
+				0AFF80511CD1A136004D3315 /* history.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		0A5035761CACD58300ACD21D = {
 			isa = PBXGroup;
 			children = (
+				0AF276BC1CD1F4A7000F5261 /* CoreBluetooth.framework */,
 				0A5035811CACD58300ACD21D /* FunnyText */,
 				0A50359B1CACD58300ACD21D /* FunnyTextTests */,
 				0A5035A61CACD58300ACD21D /* FunnyTextUITests */,
@@ -118,25 +288,12 @@
 		0A5035811CACD58300ACD21D /* FunnyText */ = {
 			isa = PBXGroup;
 			children = (
-				0A5035851CACD58300ACD21D /* AppDelegate.h */,
-				0A5035861CACD58300ACD21D /* AppDelegate.m */,
-				0A5035881CACD58300ACD21D /* ViewController.h */,
-				0A5035891CACD58300ACD21D /* ViewController.m */,
-				0A50358B1CACD58300ACD21D /* Main.storyboard */,
-				0A50358E1CACD58300ACD21D /* Assets.xcassets */,
-				0A5035901CACD58300ACD21D /* LaunchScreen.storyboard */,
-				0A5035931CACD58300ACD21D /* Info.plist */,
+				0A3DED8A1CB7B56E00766068 /* Utility */,
+				0A3DED891CB7B56700766068 /* Views */,
+				0A3DED881CB7B55C00766068 /* Models */,
+				0A3DED871CB7B54B00766068 /* Controllers */,
 				0A5035821CACD58300ACD21D /* Supporting Files */,
-				0A5035BE1CACF4BE00ACD21D /* LJZTurnAnimationController.h */,
-				0A5035BF1CACF4BE00ACD21D /* LJZTurnAnimationController.m */,
-				0A5035C11CACF61400ACD21D /* LJZReversibleAnimationController.h */,
-				0A5035C21CACF61400ACD21D /* LJZReversibleAnimationController.m */,
-				0A5035E31CAD0B5200ACD21D /* LJZBaseInteractionController.h */,
-				0A5035E41CAD0B5200ACD21D /* LJZBaseInteractionController.m */,
-				0A5035E91CAD21DC00ACD21D /* LJZNavigationController.h */,
-				0A5035EA1CAD21DC00ACD21D /* LJZNavigationController.m */,
-				0A3DED5F1CB7600000766068 /* LJZTextViewController.h */,
-				0A3DED601CB7600000766068 /* LJZTextViewController.m */,
+				0A3DED861CB7B52600766068 /* Animations */,
 			);
 			path = FunnyText;
 			sourceTree = "<group>";
@@ -144,6 +301,14 @@
 		0A5035821CACD58300ACD21D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0A5035851CACD58300ACD21D /* AppDelegate.h */,
+				0A5035861CACD58300ACD21D /* AppDelegate.m */,
+				0A50358B1CACD58300ACD21D /* Main.storyboard */,
+				0A50358E1CACD58300ACD21D /* Assets.xcassets */,
+				0A5035901CACD58300ACD21D /* LaunchScreen.storyboard */,
+				0A5035931CACD58300ACD21D /* Info.plist */,
+				0A3DED631CB789D800766068 /* Define.h */,
+				0A3DED641CB78A1800766068 /* FunnyTextPrefixHeader.pch */,
 				0A5035831CACD58300ACD21D /* main.m */,
 				0A3DED571CB5F4CC00766068 /* KeychainAceessGroup.plist */,
 			);
@@ -272,10 +437,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFF80521CD1A136004D3315 /* history.png in Resources */,
 				0A3DED581CB5F4CC00766068 /* KeychainAceessGroup.plist in Resources */,
 				0A5035921CACD58300ACD21D /* LaunchScreen.storyboard in Resources */,
+				0AFF80481CD0A3D8004D3315 /* slider_backGround.png in Resources */,
 				0A50358F1CACD58300ACD21D /* Assets.xcassets in Resources */,
+				0A3DED911CBB470C00766068 /* picker.png in Resources */,
 				0A50358D1CACD58300ACD21D /* Main.storyboard in Resources */,
+				0A3DED8F1CBB344E00766068 /* colorwheel.png in Resources */,
+				0AFF80461CD09B7D004D3315 /* slider.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +470,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFF804D1CD0B90C004D3315 /* LJZHistoryTableViewController.m in Sources */,
+				0A3DED941CBB4F0100766068 /* ColorDetectView.m in Sources */,
+				0A3DED7B1CB7A67B00766068 /* HRBrightnessCursor.m in Sources */,
+				0A3DED981CBB5A7300766068 /* LJZTools.m in Sources */,
+				0A3DED691CB7A5C200766068 /* LJZCardsAnimatonController.m in Sources */,
+				0A3DED7C1CB7A67B00766068 /* HRBrightnessSlider.m in Sources */,
+				0A3DED811CB7A67B00766068 /* HRHSVColorUtil.m in Sources */,
+				0A3DED821CB7A67B00766068 /* UIImage+CoreGraphics.m in Sources */,
 				0A5035E51CAD0B5200ACD21D /* LJZBaseInteractionController.m in Sources */,
+				0A3DED7E1CB7A67B00766068 /* HRColorInfoView.m in Sources */,
 				0A5035EB1CAD21DC00ACD21D /* LJZNavigationController.m in Sources */,
+				0A3DED7D1CB7A67B00766068 /* HRColorCursor.m in Sources */,
+				0A3DED801CB7A67B00766068 /* HRColorPickerView.m in Sources */,
 				0A3DED611CB7600000766068 /* LJZTextViewController.m in Sources */,
 				0A50358A1CACD58300ACD21D /* ViewController.m in Sources */,
 				0A5035C31CACF61400ACD21D /* LJZReversibleAnimationController.m in Sources */,
 				0A5035871CACD58300ACD21D /* AppDelegate.m in Sources */,
+				0A3DED851CB7B31D00766068 /* LJZSettingColorViewController.m in Sources */,
+				0A3DED7F1CB7A67B00766068 /* HRColorMapView.m in Sources */,
 				0A5035841CACD58300ACD21D /* main.m in Sources */,
 				0A5035C01CACF4BE00ACD21D /* LJZTurnAnimationController.m in Sources */,
+				0AFF80501CD0BA39004D3315 /* LJZHistoryManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +630,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FunnyText/FunnyTextPrefixheader.pch;
 				INFOPLIST_FILE = FunnyText/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.likeme.FunnyText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,8 +644,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FunnyText/FunnyTextPrefixheader.pch;
 				INFOPLIST_FILE = FunnyText/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.likeme.FunnyText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
