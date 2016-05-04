@@ -129,13 +129,13 @@
     speedLabel.text = @"速度";
     [_scrollView addSubview:speedLabel];
     
-    UISlider *speedSlider = [[UISlider alloc]initWithFrame:CGRectMake(textFieldX, CGRectGetMaxY(speedLabel.frame) + 20, textFiledW, textFiledH)];
+    ASValueTrackingSlider *speedSlider = [[ASValueTrackingSlider alloc]initWithFrame:CGRectMake(textFieldX, CGRectGetMaxY(speedLabel.frame) + 20, textFiledW, textFiledH)];
     if ([_userDefaults floatForKey:@"speed"]) {
         speedSlider.value = [_userDefaults floatForKey:@"speed"];
     }
     [speedSlider addTarget:self action:@selector(sliderEvent:) forControlEvents:UIControlEventTouchUpInside];
     speedSlider.minimumValue = 0;
-    speedSlider.maximumValue = 1;
+    speedSlider.maximumValue = 5;
     
     [speedSlider setThumbImage:[UIImage imageNamed:@"slider"] forState:UIControlStateNormal];
     speedSlider.minimumTrackTintColor = [UIColor orangeColor];

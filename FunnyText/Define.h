@@ -8,6 +8,7 @@
 
 #import "LJZTools.h"
 #import "LJZHistoryManager.h"
+#import "ASValueTrackingSlider.h"
 #ifndef Define_h
 #define Define_h
 
