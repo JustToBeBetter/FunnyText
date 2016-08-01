@@ -184,6 +184,7 @@
 //富文本
 - (void)attributeString{
     NSString *str = @"人生若只如初见，何事秋风悲画扇。\n等闲变却故人心，却道故人心易变。\n骊山语罢清宵半，泪雨霖铃终不怨。\n何如薄幸锦衣郎，比翼连枝当日愿。";
+    
     NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:str];
     [attrStr addAttribute:NSFontAttributeName
                     value:[UIFont systemFontOfSize:30.0f]
@@ -221,7 +222,7 @@
 //    注意：label链接是可以显示出来，但是点不了，有兴趣的朋友可以试试。查资料发现textView是可以点击的，有shouldInteractWithURL代理方法回调。
     
 
-    NSString *urlStr = @"www.南瓜瓜.com";
+    NSString *urlStr = @"www.baidu.com";
     NSURL *url = [NSURL URLWithString:urlStr];
     
     [attrStr addAttribute:NSLinkAttributeName

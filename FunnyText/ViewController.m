@@ -160,7 +160,7 @@
     [_userDefaults setFloat:sender.value forKey:@"speed"];
     
     if (sender.value) {
-        _speed = sender.value * kMaxSpeed;
+        _speed = sender.value ;
     }
 }
 - (void)showText:(UIButton *)sender{
@@ -169,6 +169,7 @@
         
         return;
     }
+    
    NSString *path = [[LJZHistoryManager sharedInstance]getPlistPath];
    _historyArray = [NSMutableArray arrayWithContentsOfFile:path];
     

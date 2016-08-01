@@ -226,7 +226,6 @@
 		0A5035761CACD58300ACD21D = {
 			isa = PBXGroup;
 			children = (
-				0AF276BC1CD1F4A7000F5261 /* CoreBluetooth.framework */,
 				0A5035811CACD58300ACD21D /* FunnyText */,
 				0A50359B1CACD58300ACD21D /* FunnyTextTests */,
 				0A5035A61CACD58300ACD21D /* FunnyTextUITests */,
@@ -253,6 +252,7 @@
 				0A3DED871CB7B54B00766068 /* Controllers */,
 				0A3DED861CB7B52600766068 /* Animations */,
 				0A5035821CACD58300ACD21D /* Supporting Files */,
+				E8E787051CD9D0DB00BC7DDD /* Framework */,
 			);
 			path = FunnyText;
 			sourceTree = "<group>";
@@ -301,6 +301,14 @@
 				E845C2251CD99F76003C5336 /* ASValueTrackingSlider.m */,
 			);
 			path = ASValueTrackingSlider;
+			sourceTree = "<group>";
+		};
+		E8E787051CD9D0DB00BC7DDD /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				0AF276BC1CD1F4A7000F5261 /* CoreBluetooth.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
